@@ -1,0 +1,34 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Benchmark data
+data/benchmark/
+data/vietnam/benchmark/
+
+# Cache
+.pytest_cache/
+.ipynb_checkpoints/
+.mplconfig/
+*.partial
+
+# Temporary files
+*.log
+*.zip
+!data/raw/uci_477.zip
+
+# Build
+dist/
+
+# Environment
+.env
+
+# System
+.DS_Store
+Thumbs.db
+
+# Test results
+.coverage
+htmlcov/
